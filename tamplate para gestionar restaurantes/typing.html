@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="csstyping.css">
+    <title>paralax</title>
+</head>
+<body>
+
+<!---------------------------------------------HEADER------------------------------------------------------>
+<div id="text">
+
+</div>
+<script type="text/javascript">
+var i=0;
+var text="Bienvenido a tu restaurant";
+
+function typing() {
+    if (i<text.length) {
+        document.getElementById("text").innerHTML+= text.charAt(i);
+        i++;
+         setTimeout( typing,70);
+    }
+}
+typing();
+</script>
+<!---------------------------------------------/////FIM HEADER\\\\\------------------------------------------------------>
+
+<!----------------------------------------------------SECTION------------------------------------------------------------>
+
+
+<!---------------------------------------------/////FIM SECTION\\\\\----------------------------------------------------->
+<!----------------------------------------------------FOOTER------------------------------------------------------------->
+
+<!---------------------------------------------/////FIM FOOTER\\\\------------------------------------------------------->
+
+    <script src="boostrap/js/jquery.js"></script>
+    <script src="boostrap/js/dori.js"></script>
+    <script src="boostrap/js/bootstrap.min.js"></script>
+</body>
+</html>

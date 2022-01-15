@@ -1,0 +1,8 @@
+#testando{
+   text-align: center;
+   border: 5px solid white;
+}
+#testando:hover{
+    text-align: center;
+    border:0px;
+}

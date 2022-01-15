@@ -1,0 +1,38 @@
+body{
+    height: 800px;
+}
+#demo{
+   margin:55px 0 0 0;
+}
+.card:hover{
+    box-shadow: 0 0 10px #ffb300;
+}
+.nav-item:hover{
+   font-size: 20px;
+}
+.carousel-item{
+min-height: 300px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+background-size: cover; 
+   }
+ .carousel-caption {
+bottom: 220px;
+   }
+.carousel-caption h1{
+   text-transform: uppercase; 
+   letter-spacing: 2px;
+   margin-top: 25px;
+   font-family: 'Times New Roman', Times, serif; 
+       }
+      
+.carousel-caption p{
+  font-size: 21px;
+    margin: auto;
+   font-family: 'Times New Roman', Times, serif; 
+   color: white;
+   border: 1px solid #ff8f00;
+   background-color: rgba(0, 0, 0, 0.7);
+}
+
+      

@@ -1,0 +1,61 @@
+.nav-item:hover{
+    font-size: 20px;
+ }
+#paralax-image{
+    background: url("imagenes/13.jpg");
+    height: 500px;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+
+}
+
+#paralax-image1{
+    background: url("imagenes/20.jpg");
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+/* #footer{
+    background: url("imagenes/darkness.png");
+    height: 500px;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+.platos-ricos{
+    width: 400px;
+    height: 250px;
+    padding-bottom: 10px
+}
+
+.mejoresplatos:hover{
+border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+}
+
+#text{
+    color:  white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    }
+
+    
